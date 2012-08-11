@@ -4,11 +4,11 @@ var  Config = require('./Config')
    
    
 /**
-  Данная функция отвечает за ручной роутинг, 
-  что позволяет указывать на нужный адрес нужный метод.
-  В таком случае требуется самому подключать контроллеры и создать их экземпляры
+  Р”Р°РЅРЅР°СЏ С„СѓРЅРєС†РёСЏ РѕС‚РІРµС‡Р°РµС‚ Р·Р° СЂСѓС‡РЅРѕР№ СЂРѕСѓС‚РёРЅРі, 
+  С‡С‚Рѕ РїРѕР·РІРѕР»СЏРµС‚ СѓРєР°Р·С‹РІР°С‚СЊ РЅР° РЅСѓР¶РЅС‹Р№ Р°РґСЂРµСЃ РЅСѓР¶РЅС‹Р№ РјРµС‚РѕРґ.
+  Р’ С‚Р°РєРѕРј СЃР»СѓС‡Р°Рµ С‚СЂРµР±СѓРµС‚СЃСЏ СЃР°РјРѕРјСѓ РїРѕРґРєР»СЋС‡Р°С‚СЊ РєРѕРЅС‚СЂРѕР»Р»РµСЂС‹ Рё СЃРѕР·РґР°С‚СЊ РёС… СЌРєР·РµРјРїР»СЏСЂС‹
   
-  пример:
+  РїСЂРёРјРµСЂ:
     var maneController = require(cfg.dirControllers+'maneController');
     
     route.get('/', function(req, res) {
@@ -26,11 +26,11 @@ exports.mapRouter = function (route){
     });
 }
 /**
-  Данная функция отвечает за автоматический роутинг, 
-  сопоставляя первый эл-т пути к названию контроллера, второй эл-т к его методу
-  остальные параметры адресной строки доступны в глобальных переменных
+  Р”Р°РЅРЅР°СЏ С„СѓРЅРєС†РёСЏ РѕС‚РІРµС‡Р°РµС‚ Р·Р° Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєРёР№ СЂРѕСѓС‚РёРЅРі, 
+  СЃРѕРїРѕСЃС‚Р°РІР»СЏСЏ РїРµСЂРІС‹Р№ СЌР»-С‚ РїСѓС‚Рё Рє РЅР°Р·РІР°РЅРёСЋ РєРѕРЅС‚СЂРѕР»Р»РµСЂР°, РІС‚РѕСЂРѕР№ СЌР»-С‚ Рє РµРіРѕ РјРµС‚РѕРґСѓ
+  РѕСЃС‚Р°Р»СЊРЅС‹Рµ РїР°СЂР°РјРµС‚СЂС‹ Р°РґСЂРµСЃРЅРѕР№ СЃС‚СЂРѕРєРё РґРѕСЃС‚СѓРїРЅС‹ РІ РіР»РѕР±Р°Р»СЊРЅС‹С… РїРµСЂРµРјРµРЅРЅС‹С…
   
-  пример: http://www.site.ru/mane/index
+  РїСЂРёРјРµСЂ: http://www.site.ru/mane/index
   mane == maneController
   index == new maneController.index();
 */
@@ -39,16 +39,16 @@ exports.autoRouter = function (req,res){
     , pathname   = hrefObj.pathname
     , href       = hrefObj.href;
     
-    // стандартный контроллер и его метод, 
-    // на случай если не найден ни один контроллер по запросу
+    // СЃС‚Р°РЅРґР°СЂС‚РЅС‹Р№ РєРѕРЅС‚СЂРѕР»Р»РµСЂ Рё РµРіРѕ РјРµС‚РѕРґ, 
+    // РЅР° СЃР»СѓС‡Р°Р№ РµСЃР»Рё РЅРµ РЅР°Р№РґРµРЅ РЅРё РѕРґРёРЅ РєРѕРЅС‚СЂРѕР»Р»РµСЂ РїРѕ Р·Р°РїСЂРѕСЃСѓ
     var defaultAction = {
-       'controller' : 'maneController',
-       'action'     : 'index'
+       controller : 'mane',
+       action     : 'index'
     };
     
     
     var tmpArrParamPath = pathname.split('/');
-    // разделяем по сепаратору адресную строку для получения имен конроллера и метода
+    // СЂР°Р·РґРµР»СЏРµРј РїРѕ СЃРµРїР°СЂР°С‚РѕСЂСѓ Р°РґСЂРµСЃРЅСѓСЋ СЃС‚СЂРѕРєСѓ РґР»СЏ РїРѕР»СѓС‡РµРЅРёСЏ РёРјРµРЅ РєРѕРЅСЂРѕР»Р»РµСЂР° Рё РјРµС‚РѕРґР°
     var ArrParamPath = [];
     for(var i=0; i < tmpArrParamPath.length; i++ ){
         if(tmpArrParamPath[i]=='') continue;
@@ -56,6 +56,13 @@ exports.autoRouter = function (req,res){
         ArrParamPath.push(tmpArrParamPath[i]);
     }
     
+    // РґРµС„РѕСѓР»С‚РЅС‹Рµ РЅР°СЃС‚СЂРѕР№РєРё, РµСЃР»Рё РЅРёС‡РµРіРѕ РЅРµ РїРµСЂРµРґР°РЅРѕ    
+    if(ArrParamPath[0]==undefined){
+        ArrParamPath[0] = defaultAction.controller;
+    }
+    if(ArrParamPath[1]==undefined){
+        ArrParamPath[1] = defaultAction.action;
+    }
     
     Config.fs.stat(Config.dirControllers+ArrParamPath[0]+'Controller.js', function(err, stat) {
         if(err == null) {
@@ -68,10 +75,9 @@ exports.autoRouter = function (req,res){
            };
            tmpController[ArrParamPath[1]](req,res,dataHref);
            
-        } else if(err.code == 'ENOENT') {
-           // fs.writeFile('log.txt', 'Some log\n');
         } else {
-            console.log('Some other error: ', err.code);
+            res.writeHead(500);
+            res.end('Error loading '+ArrParamPath[0]+'Controller.js see file from Router.js');
         }
     });
     

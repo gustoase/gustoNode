@@ -10,7 +10,10 @@ Config = function(){
     this.io              = require(this.dirNodeModules+'socket.io').listen(this.server);
     this.fs              = require('fs');
     this.util            = require('util');
-    this.formidable      = require(this.dirNodeModules+'formidable')        // работа с файлами
+    var JUST             = require(this.dirNodeModules+'just');
+    this.View            = new JUST({ root : this.dirViews , useCache : true, ext : '.html' });
+    this.formidable      = require(this.dirNodeModules+'formidable');        // СЂР°Р±РѕС‚Р° СЃ С„Р°Р№Р»Р°РјРё
+    this.logFile         = this.dirBase+'log.txt';
 };
 
 module.exports = new Config();
