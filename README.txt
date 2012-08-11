@@ -9,5 +9,6 @@ git reset --hard {ХЕШ КОД НУЖНОЙ ВЕРСИИ ПРОЕКТА}
 2) socket.io
 3) router
 4) just
+5) formidable
 
 Все настройки находятся в Core/Config.js
