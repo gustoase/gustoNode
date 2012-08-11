@@ -10,17 +10,16 @@ Config.server.listen(8000);
 //var route = router();
 //Router.mapRouter(route);
 //Config.server.on('request',route);
-<<<<<<< HEAD
+
 
 
 
 // если хотим распределять автоматически
 // по адресам контроллером и методов
 // слушаем сервер и атороутим
-=======
+
 // если хотим распределять автоматически
 // по адресам контроллером и методов
->>>>>>> 48bdbbf09be48ae355619385bf9af1fdc25b500e
 Config.server.on('request',Router.autoRouter);
 
 // далее сокеты
