@@ -3,22 +3,22 @@ Halper = function(){
     this.log = function(str){
           Config.fs.open(Config.logFile, 'a', '0777', function(err, file_handle){
             if (!err) {
-                // Записываем в конец файла log.txt фразу "Copyrighted by Me"
-                // при открытии в режиме "a" указатель уже в конце файла, и мы передаём null
-                // в качестве позиции
+                // Р—Р°РїРёСЃС‹РІР°РµРј РІ РєРѕРЅРµС† С„Р°Р№Р»Р° log.txt С„СЂР°Р·Сѓ "Copyrighted by Me"
+                // РїСЂРё РѕС‚РєСЂС‹С‚РёРё РІ СЂРµР¶РёРјРµ "a" СѓРєР°Р·Р°С‚РµР»СЊ СѓР¶Рµ РІ РєРѕРЅС†Рµ С„Р°Р№Р»Р°, Рё РјС‹ РїРµСЂРµРґР°С‘Рј null
+                // РІ РєР°С‡РµСЃС‚РІРµ РїРѕР·РёС†РёРё
                 var dateObj = new Date();
                 tmpStr = "\n\r#" + dateObj.toString() + "_______________________________________________#\n\r"+str;
                 
                 Config.fs.write(file_handle, tmpStr, null, null, function(err, written) {
                     if (!err) {
-                        // Всё прошло хорошо
+                        // Р’СЃС‘ РїСЂРѕС€Р»Рѕ С…РѕСЂРѕС€Рѕ
                     } else {
-                        // Произошла ошибка при записи
+                        // РџСЂРѕРёР·РѕС€Р»Р° РѕС€РёР±РєР° РїСЂРё Р·Р°РїРёСЃРё
                         console.log('Error write from log file');
                     }
                 });
             } else {
-                // Обработка ошибок при открытии
+                // РћР±СЂР°Р±РѕС‚РєР° РѕС€РёР±РѕРє РїСЂРё РѕС‚РєСЂС‹С‚РёРё
                 console.log('Error open log file');
             }
         });
