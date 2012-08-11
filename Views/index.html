@@ -1,0 +1,19 @@
+<script src="/socket.io/socket.io.js"></script>
+<script>
+  var socket = io.connect('http://192.168.137.3:8000/');
+  socket.on('news', function (data) {
+    console.log(data);
+    alert(data);
+    socket.emit('my other event', { my: 'data' });
+  });
+  
+  socket.on('goConsole', function (data) {
+    console.log(data);
+  });
+</script>
+
+<form ENCTYPE="multipart/form-data" name="form1" method="post" action="/upload">
+    Имя отправителя: <input type="text" name="username" /><br />
+    Прикрепить файл: <input type="file" name="fileup" /><br />
+    <input name="" type="submit" value="Отправить" />
+</form>
