@@ -1,9 +1,8 @@
 
 var Config = require(__dirname+'/Core/Config')
-  , router = require('router')  // роутер по жестким путям Config.dirNodeModules+
+  , router = require(Config.dirNodeModules+'router')  // роутер по жестким путям
   , Router = require(Config.dirCore+'Router')  // роутер системы
-  , Sync   = require('sync')
-  , maneSocket = require(Config.dirControllers+'maneSocket'); // для последовательного выполнения функций
+  , maneSocket = require(Config.dirControllers+'maneSocket'); // контроллер соккетов
   
 Config.server.listen(8000);
 
@@ -12,12 +11,12 @@ Config.server.listen(8000);
 //var route = router();
 //Router.mapRouter(route);
 //Config.server.on('request',route);
+
+
+
 // если хотим распределять автоматически
 // по адресам контроллером и методов
-
-
-
-// слушаем сервер и роутим
+// слушаем сервер и атороутим
 Config.server.on('request',Router.autoRouter);
 
 // далее сокеты

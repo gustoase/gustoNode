@@ -1,16 +1,13 @@
-var Config = require('../Core/Config') 
-   ,Helper = require(Config.dirCore+'Helper');
+var Config = require('../Core/Config');
 
 var Run = function(socket){
    
-   
-    socket.emit('goConsole', 'one');
-    
-    socket.on('isClient', function(data){
-       socket.emit('goConsole', 'two');
+   // ждем нового добавления поста пользователем, 
+   // и отсылаем остальным сообщение о обновлении
+   Config.App.on('addPost',function(data){
+       socket.emit('str', data);
    });
-   
-   
+    
 };
 
 module.exports = Run;

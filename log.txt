@@ -23,3 +23,63 @@ Open about controller
 #Sat Aug 11 2012 14:32:14 GMT+0400 (MSK)_______________________________________________#
 
 Open about controller 
+#Sat Aug 11 2012 20:59:03 GMT+0400 (MSK)_______________________________________________#
+Error call method index from controllers name space. Throw name: TypeError
+#Sat Aug 11 2012 20:59:50 GMT+0400 (MSK)_______________________________________________#
+Error call method index from controllers name space. Throw name: TypeError
+#Sat Aug 11 2012 21:02:05 GMT+0400 (MSK)_______________________________________________#
+Error call method index from controllers name space. Throw name: TypeError
+#Sat Aug 11 2012 21:03:49 GMT+0400 (MSK)_______________________________________________#
+Error call method index from controllers name space. Throw name: TypeError
+#Sat Aug 11 2012 21:24:55 GMT+0400 (MSK)_______________________________________________#
+Error call method index from controller name space. Throw name: TypeError
+#Sat Aug 11 2012 21:25:25 GMT+0400 (MSK)_______________________________________________#
+Error call method index from controller name space. Throw name: TypeError
+#Sat Aug 11 2012 21:26:52 GMT+0400 (MSK)_______________________________________________#
+Error call method index from controller name space. Throw name: TypeError
+#Sat Aug 11 2012 21:28:47 GMT+0400 (MSK)_______________________________________________#
+Error call method index from maneController name space. Throw name: TypeError
+#Sat Aug 11 2012 21:33:00 GMT+0400 (MSK)_______________________________________________#
+Error call method mane from maneController name space. Throw name: TypeError
+#Sat Aug 11 2012 22:13:20 GMT+0400 (MSK)_______________________________________________#
+Error call method newPost from maneController name space. Throw name: TypeError
+#Sat Aug 11 2012 22:14:51 GMT+0400 (MSK)_______________________________________________#
+Error call method newPost from maneController name space. Throw name: TypeError
+#Sat Aug 11 2012 22:15:00 GMT+0400 (MSK)_______________________________________________#
+Error call method newPost from maneController name space. Throw name: TypeError
+#Sat Aug 11 2012 22:16:13 GMT+0400 (MSK)_______________________________________________#
+Error call method newPost from maneController name space. Throw name: TypeError
+#Sat Aug 11 2012 22:16:37 GMT+0400 (MSK)_______________________________________________#
+Error call method newPost from maneController name space. Throw name: TypeError
+#Sat Aug 11 2012 22:18:12 GMT+0400 (MSK)_______________________________________________#
+Error call method newPost from maneController name space. Throw name: TypeError
+#Sat Aug 11 2012 22:20:59 GMT+0400 (MSK)_______________________________________________#
+Error call method newPost from maneController name space. Throw name: TypeError
+#Sat Aug 11 2012 22:21:06 GMT+0400 (MSK)_______________________________________________#
+Error call method newPost from maneController name space. Throw name: TypeError
+#Sat Aug 11 2012 22:21:26 GMT+0400 (MSK)_______________________________________________#
+Error call method newPost from maneController name space. Throw name: TypeError
+#Sat Aug 11 2012 22:46:17 GMT+0400 (MSK)_______________________________________________#
+Error loading socket.ioController.js see file from Router.js
+#Sat Aug 11 2012 22:46:20 GMT+0400 (MSK)_______________________________________________#
+Error loading socket.ioController.js see file from Router.js
+#Sat Aug 11 2012 22:46:20 GMT+0400 (MSK)_______________________________________________#
+Error loading socket.ioController.js see file from Router.js
+#Sat Aug 11 2012 22:46:21 GMT+0400 (MSK)_______________________________________________#
+Error loading favicon.icoController.js see file from Router.js
+#Sat Aug 11 2012 22:46:21 GMT+0400 (MSK)_______________________________________________#
+Error loading socket.ioController.js see file from Router.js
+#Sat Aug 11 2012 22:46:22 GMT+0400 (MSK)_______________________________________________#
+Error loading socket.ioController.js see file from Router.js
+#Sat Aug 11 2012 22:46:22 GMT+0400 (MSK)_______________________________________________#
+Error loading favicon.icoController.js see file from Router.js
+#Sat Aug 11 2012 22:46:47 GMT+0400 (MSK)_______________________________________________#
+Error loading socket.ioController.js see file from Router.js
+#Sat Aug 11 2012 22:46:48 GMT+0400 (MSK)_______________________________________________#
+Error loading socket.ioController.js see file from Router.js
+#Sat Aug 11 2012 22:46:48 GMT+0400 (MSK)_______________________________________________#
+Error loading favicon.icoController.js see file from Router.js
+#Sat Aug 11 2012 22:47:01 GMT+0400 (MSK)_______________________________________________#
+Error loading socket.ioController.js see file from Router.js
+#Sat Aug 11 2012 22:47:04 GMT+0400 (MSK)_______________________________________________#
+Error loading socket.ioController.js see file from Router.js

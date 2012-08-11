@@ -1,15 +1,32 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script src="/socket.io/socket.io.js"></script>
 <script>
   var socket = io.connect('http://192.168.137.3:8000/');
-  /*
-  socket.on('news', function (data) {
-    console.log(data);
-    alert(data);
-    socket.emit('my other event', { my: 'data' });
-  });
-  */
-  socket.emit('isClient', { connect: 1 });
+
+  // ждем событий
   socket.on('goConsole', function (data) {
     console.log(data);
   });
+  
+  socket.on('alert', function (data) {
+    alert(data);
+  });
+  
+  socket.on('str', function (data) {
+    $("#send").append(data+"<br/>");
+  });
+  
+  // отправить новую запись на сервер
+  function addPost(){
+    var text = prompt('Текс записи');
+
+    $.get('/mane/newpost/?text='+text, function(data) {
+        $("#res").html("<h3>"+data+"</h3>");
+    });
+  }
 </script>
+
+<button onclick="addPost()">отправить сообщение</button>
+<br/>
+<div id="res"></div>
+<div id="send"></div>

@@ -1,36 +1,31 @@
 var Config = require('../Core/Config') 
-   ,controller = require(Config.dirCore+'Controller')
-   ,Helper     = require(Config.dirCore+'Helper');
+   ,Helper = require(Config.dirCore+'Helper');
    
-exports.mane = controller.Controller.prototype =  function () {
+// описываем наш контроллер
+Config.App.ns('maneController').method({
     
-    this.index = function(req,res,hrefData){
-        var Sync = require('sync');
-        Sync(function(){
-            Config.fs.readFile(Config.dirViews + 'index.html',
-              function (err, data) {
-                if (err) {
-                  res.writeHead(500);
-                  return res.end('Error loading index.html');
-                }
-            
-                res.writeHead(200);
-                res.end(data);
-              });
-               
-       });
-    };
-    
-    this.about = function(req,res,hrefData){
-         res.end("hello im contact of defaultController");  
-         Helper.log('Open about controller ');
-    };
-    
-    this.contact = function(req,res,hrefData){
-        Config.View.render('page', { title: 'Hello, World!', post: [1,2,3,4,5,6,7] }, function(error, html) {
-            res.writeHead(200);
-            res.end(html);
+    index : function(param){
+        Config.View.render('index', { }, function(error, html) {
+            param.res.writeHead(200);
+            param.res.end(html);
         });
-    };    
+    },
     
-};
+    about: function(param){
+       Config.View.render('page', { title: 'Hello, World!', post: [1,2,3,4,5,6,7] }, function(error, html) {
+            param.res.writeHead(200);
+            param.res.end(html);
+        });
+        
+    },
+    
+    newpost: function(param){
+       param.res.writeHead(200);
+       param.res.end('ok added post');
+       // рассылаем всем слушателям событие о новом поступлении
+       Config.App.emit('addPost','add post!!!! - '+param.dataHref.query.text);
+    }
+    
+    
+});
+   

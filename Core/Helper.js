@@ -1,4 +1,4 @@
-var  Config = require(__dirname+'/Config');
+var Config = require('./Config');
 Halper = function(){
     this.log = function(str){
           Config.fs.open(Config.logFile, 'a', '0777', function(err, file_handle){
