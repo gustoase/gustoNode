@@ -2,6 +2,12 @@
 git clone --no-checkout https://github.com/gustoase/gustoNode.git
 
 потом залить нужную версию по хеш коду в коренвую директорию
-git reset --hard 811ef764b269b112cac31eb92ede93aecb35c804 
+git reset --hard {ХЕШ КОД НУЖНОЙ ВЕРСИИ ПРОЕКТА} 
 
-чтобы откомитить код на гитхаб 
+Модули которые нужны для проекта
+1) sync
+2) socket.io
+3) router
+4) just
+
+Все настройки находятся в Core/Config.js
