@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 #Sat Aug 11 2012 14:29:23 GMT+0400 (MSK)__________undefined_____________________________________#
@@ -83,3 +84,5 @@ Open about controller
 Error loading socket.ioController.js see file from Router.js
 #Sat Aug 11 2012 22:47:04 GMT+0400 (MSK)_______________________________________________#
 Error loading socket.ioController.js see file from Router.js
+=======
+>>>>>>> 48bdbbf09be48ae355619385bf9af1fdc25b500e
