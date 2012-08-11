@@ -1,4 +1,3 @@
-
 var Config = require(__dirname+'/Core/Config')
   , router = require('router')  // роутер по жестким путям Config.dirNodeModules+
   , Router = require(Config.dirCore+'Router')  // роутер системы
@@ -14,10 +13,6 @@ Config.server.listen(8000);
 //Config.server.on('request',route);
 // если хотим распределять автоматически
 // по адресам контроллером и методов
-
-
-
-// слушаем сервер и роутим
 Config.server.on('request',Router.autoRouter);
 
 // далее сокеты
