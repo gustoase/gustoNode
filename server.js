@@ -13,22 +13,13 @@ Config.server.listen(args.PORT||8000);
 //var route = router();
 //Router.mapRouter(route);
 //Config.server.on('request',route);
-<<<<<<< HEAD
-=======
-
->>>>>>> bd402638365f14cdcb8422d70509acc07e3a0053
-
 
 
 // если хотим распределять автоматически
 // по адресам контроллером и методов
 // слушаем сервер и атороутим
-<<<<<<< HEAD
-=======
-
 // если хотим распределять автоматически
 // по адресам контроллером и методов
->>>>>>> bd402638365f14cdcb8422d70509acc07e3a0053
 Config.server.on('request',Router.autoRouter);
 
 // далее сокеты

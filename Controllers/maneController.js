@@ -50,7 +50,31 @@ Config.App.ns('maneController').method({
        param.res.end('ok added post');
        // рассылаем всем слушателям событие о новом поступлении
        Config.App.emit('addPost','add post!!!! - '+decodeURIComponent(param.dataHref.query.text));
-    }
+    },
+    
+    mysqlAdd : function(param){
+        
+        // если БД готова, работаем с ней
+        Config.App.isReadyDb(function(objects){
+            
+             var test = new objects.Autotable({
+                "name"      : "John",
+                "text"      : "Dtexttexttextoe",
+                "id_cat"    : 123
+            });
+            
+            test.save(function (err, Copytable) {
+                if (!err) {
+                    param.res.end("Saved! ID=" + Copytable.id); 
+                } else {
+                    param.res.end("Something went wrong..."+err);
+               }
+            });
+            
+            
+        });
+        
+    },
     
     
 });

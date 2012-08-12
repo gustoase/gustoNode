@@ -1,12 +1,12 @@
 /******************************************  Месторасположение  *************************************/
-exports.dirViews        = '/srv/Views/';
-exports.dirCore         = '/srv/Core/';
-exports.dirModels       = '/srv/Models/';
-exports.dirAppDataS     = '/srv/AppData/';
-exports.dirAppData     = '/srv/AppData';
-exports.dirControllers  = '/srv/Controllers/';
-exports.dirPublic       = '/srv/Public/';
 exports.dirBase         = '/srv/';
+exports.dirViews        = this.dirBase+'Views/';
+exports.dirCore         = this.dirBase+'Core/';
+exports.dirModels       = this.dirBase+'Models/';
+exports.dirAppDataS     = this.dirBase+'AppData/';
+exports.dirAppData      = this.dirBase+'AppData';
+exports.dirControllers  = this.dirBase+'Controllers/';
+exports.dirPublic       = this.dirBase+'Public/';
 exports.dirNodeModules  = '/opt/node/lib/node_modules/';
 /******************************************  Подключение нужный модулей сервера  *********************/
 exports.server          = require('http').createServer();
