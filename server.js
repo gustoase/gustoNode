@@ -3,24 +3,22 @@ var Config = require(__dirname+'/Core/Config')
   , Router = require(Config.dirCore+'Router')  // роутер системы
   , maneSocket = require(Config.dirControllers+'maneSocket'); // контроллер соккетов
   
-Config.server.listen(8000);
+
+// передаем нужные аргументы ноду например порт: node server.js PORT=8000
+var args = Router.getUrlVars("?"+process.argv[2]);
+Config.server.listen(args.PORT||8000);
 
 // если хотим распределять всё вручную
 // подключаем ручной роутер
 //var route = router();
 //Router.mapRouter(route);
 //Config.server.on('request',route);
-<<<<<<< HEAD
 
 
 
 // если хотим распределять автоматически
 // по адресам контроллером и методов
 // слушаем сервер и атороутим
-=======
-// если хотим распределять автоматически
-// по адресам контроллером и методов
->>>>>>> 48bdbbf09be48ae355619385bf9af1fdc25b500e
 Config.server.on('request',Router.autoRouter);
 
 // далее сокеты
@@ -29,8 +27,7 @@ Config.io.sockets.on('connection', function (socket) {
     maneSocket(socket);
 });
 
-
-
+//console.log(process);
 
 
 

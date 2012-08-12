@@ -1,5 +1,5 @@
 var  Config = require(__dirname+'/Config')
-    ,Halper = require(__dirname+'/Helper')
+    ,Helper = require(__dirname+'/Helper')
     ,events = require('events')
     ,util   = require('util');
     
@@ -7,6 +7,12 @@ App = function(){
     // регистрируем событийную модель
     // при вызове call генерится одноименное событие методу 
     events.EventEmitter.call(this);
+    // Ссылка на ресурс бд
+    this.dbLink = null;
+    // коллекция объектов БД
+    this.objects = {};
+    // статус загрузки БД
+    this.isDbLoad = false;
     // собираем все добавленные в систему методы
     this.listMethod = {};
     // определяем нужный нам неймспейс
@@ -39,7 +45,7 @@ App = function(){
         if(typeof(callbackFnc) == "function"){
             isCallbackFnc = true;
         }
-        
+         
         var returnData = null;
         // если метод не вызывается, записываем в лог и вызываем коллбек, если имеется
         try{
@@ -57,7 +63,7 @@ App = function(){
             }
         }catch(e){
             var errorMsg = 'Error call method '+nameMethod+' from '+this.currentNs+' name space. Throw name: '+e.name;
-            Halper.log(errorMsg);
+            Helper.log(errorMsg);
             if(isCallbackFnc)
                 callbackFnc(errorMsg)
         } 
@@ -66,11 +72,65 @@ App = function(){
             returnData = null;
             
         // раздаем событие: вызывался такой то метод и отдаем его возвращаемые данные
+        // controller:index
         this.emit(this.currentNs+":"+nameMethod,''+nameMethod,returnData);
             
             
         return this;   
     };
+    
+    var selfApp = this;
+    // работа с БД, подключаемся
+    var db = Config.orm.connect(Config.clientDbName, Config.clientDb, function (success, db) {
+        if (!success) {
+            var errorMsg = "Could not connect to database!";
+            Helper.log(errorMsg);
+            return;
+        }
+        
+        selfApp.dbLink = db;
+        selfApp.emit('dbConnect',selfApp.dbLink);
+        
+        
+        // сканируем имеющиеся модели данных описывающих БД
+        Helper.walk(Config.dirAppData,function(err,resultFiles){
+            // сканим получившиеся результат, и подключаем каждую модель, передавая ей ссылку на бд
+            for(var file in resultFiles){
+                var nameObject = resultFiles[file].split("/").pop().split(".")[0];
+                // Для красоты делаем первую букву в названии объекта заглавной
+                selfApp.objects[Helper.ucfirst(nameObject)] = (require(Config.dirAppDataS+nameObject))(db);
+            }
+            
+            selfApp.isDbLoad = true;
+            selfApp.emit('dbReady',selfApp.objects);
+        });
+                
+    });
+    
+    this.getDbLink = function(){
+        return this.dbLink;
+    }
+    
+    // получить все объекты БД
+    this.getObjects = function(){
+        return this.objects;
+    }
+    
+    // получить один объект БД
+    this.getOneObject = function(nameObject){
+        return this.objects[nameObject];
+    }
+    
+    // Проверяет статус загрузки бд, если всё загружено, 
+    // то выполняем функцию, и работаем с БД
+    this.isReadyDb = function(callbackFnc){
+        if(selfApp.isDbLoad){
+           callbackFnc(selfApp.objects); 
+           return;
+        }
+        selfApp.on('dbReady',callbackFnc);
+    }
+    
 };
 // наследуемся от событийной модели, чтобы можно было раздавать события
 util.inherits(App, events.EventEmitter);

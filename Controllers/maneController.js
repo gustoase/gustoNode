@@ -12,9 +12,35 @@ Config.App.ns('maneController').method({
     },
     
     about: function(param){
-       Config.View.render('page', { title: 'Hello, World!', post: [1,2,3,4,5,6,7] }, function(error, html) {
+       
+        Config.View.render('page', { title: 'Hello, World!', post: [1,2,3,4,5,6,7] }, function(error, html) {
             param.res.writeHead(200);
             param.res.end(html);
+        });
+        
+    },
+    
+    mysql : function(param){
+        
+        // если БД готова, работаем с ней
+        Config.App.isReadyDb(function(objects){
+            
+            
+            objects.Posts.find(function (items) {
+                console.log(items);
+    			if (items === null) {
+    				param.res.end('Нету ниче');
+    			} else {
+    			     var str = "";
+        			 for(var i in items){
+        			     str += items[i].text+"<br/>";
+        			 }
+                     param.res.end(str);
+    			}
+    		});
+            
+            
+            
         });
         
     },
@@ -23,7 +49,7 @@ Config.App.ns('maneController').method({
        param.res.writeHead(200);
        param.res.end('ok added post');
        // рассылаем всем слушателям событие о новом поступлении
-       Config.App.emit('addPost','add post!!!! - '+param.dataHref.query.text);
+       Config.App.emit('addPost','add post!!!! - '+decodeURIComponent(param.dataHref.query.text));
     }
     
     
