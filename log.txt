@@ -567,3 +567,21 @@ Open about controller
 Error loading favicon.icoController.js see file from Router.js
 #Sun Aug 12 2012 19:23:34 GMT+0400 (MSK)_______________________________________________#
 Error loading favicon.icoController.js see file from Router.js
+#Sun Aug 12 2012 20:07:05 GMT+0400 (MSK)_______________________________________________#
+Error loading socket.ioController.js see file from Router.js
+#Sun Aug 12 2012 20:07:06 GMT+0400 (MSK)_______________________________________________#
+Error loading favicon.icoController.js see file from Router.js
+#Sun Aug 12 2012 20:07:07 GMT+0400 (MSK)_______________________________________________#
+Error loading socket.ioController.js see file from Router.js
+#Sun Aug 12 2012 20:07:07 GMT+0400 (MSK)_______________________________________________#
+Error loading socket.ioController.js see file from Router.js
+#Sun Aug 12 2012 20:07:07 GMT+0400 (MSK)_______________________________________________#
+Error loading favicon.icoController.js see file from Router.js
+#Sun Aug 12 2012 20:07:07 GMT+0400 (MSK)_______________________________________________#
+Error loading socket.ioController.js see file from Router.js
+#Sun Aug 12 2012 20:07:07 GMT+0400 (MSK)_______________________________________________#
+Error loading socket.ioController.js see file from Router.js
+#Sun Aug 12 2012 20:07:07 GMT+0400 (MSK)_______________________________________________#
+Error loading socket.ioController.js see file from Router.js
+#Sun Aug 12 2012 20:07:07 GMT+0400 (MSK)_______________________________________________#
+Error loading favicon.icoController.js see file from Router.js
