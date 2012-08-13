@@ -1,9 +1,3 @@
-Для того чтобы скопировать код к себе в нужную директорию, но без создания доп папок надо 
-git clone --no-checkout https://github.com/gustoase/gustoNode.git
-
-потом залить нужную версию по хеш коду в коренвую директорию
-git reset --hard {ХЕШ КОД НУЖНОЙ ВЕРСИИ ПРОЕКТА} 
-
 Модули которые нужны для проекта
 2) socket.io https://github.com/LearnBoost/socket.io.git
 3) router https://github.com/masylum/router.git
