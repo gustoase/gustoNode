@@ -28,7 +28,7 @@ Config.App.ns('maneController').method({
             
             objects.Posts.find(function (items) {
                 console.log(items);
-    			if (items === null) {
+       		if (items === null) {
     				param.res.end('Нету ниче');
     			} else {
     			     var str = "";
@@ -52,29 +52,20 @@ Config.App.ns('maneController').method({
        Config.App.emit('addPost','add post!!!! - '+decodeURIComponent(param.dataHref.query.text));
     },
     
-    mysqlAdd : function(param){
+    // пробуем что нибудь спарсить jquery
+    parse: function(param){ 
+        var util = require("util")
+        ,request = require('request')
+        ,$       = require('jQuery');
         
-        // если БД готова, работаем с ней
-        Config.App.isReadyDb(function(objects){
-            
-             var test = new objects.Autotable({
-                "name"      : "John",
-                "text"      : "Dtexttexttextoe",
-                "id_cat"    : 123
-            });
-            
-            test.save(function (err, Copytable) {
-                if (!err) {
-                    param.res.end("Saved! ID=" + Copytable.id); 
-                } else {
-                    param.res.end("Something went wrong..."+err);
-               }
-            });
-            
-            
+        request.get('http://www.google.com',function(error, response, body){
+            console.log(body);
         });
-        
-    },
+          
+       
+       
+    }
+    
     
     
 });
