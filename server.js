@@ -13,11 +13,7 @@ Config.server.listen(args.PORT||8000);
 //var route = router();
 //Router.mapRouter(route);
 //Config.server.on('request',route);
-<<<<<<< HEAD
-=======
 
-
->>>>>>> 1dffbff772219000ad7f96a2aef724190a08fc7b
 
 
 // если хотим распределять автоматически
