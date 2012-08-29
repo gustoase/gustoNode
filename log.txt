@@ -1,670 +1,0 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-
-#Sat Aug 11 2012 14:29:23 GMT+0400 (MSK)__________undefined_____________________________________#
-
-Open about controller 
-
-#Sat Aug 11 2012 14:29:46 GMT+0400 (MSK)__________/srv/Core_____________________________________#
-
-Open about controller 
-
-#Sat Aug 11 2012 14:30:17 GMT+0400 (MSK)__________undefined_____________________________________#
-
-Open about controller 
-
-#Sat Aug 11 2012 14:31:45 GMT+0400 (MSK)__________/srv/log.txt_____________________________________#
-
-Open about controller 
-
-#Sat Aug 11 2012 14:32:14 GMT+0400 (MSK)_______________________________________________#
-
-Open about controller 
-
-#Sat Aug 11 2012 14:32:14 GMT+0400 (MSK)_______________________________________________#
-
-Open about controller 
-#Sat Aug 11 2012 20:59:03 GMT+0400 (MSK)_______________________________________________#
-Error call method index from controllers name space. Throw name: TypeError
-#Sat Aug 11 2012 20:59:50 GMT+0400 (MSK)_______________________________________________#
-Error call method index from controllers name space. Throw name: TypeError
-#Sat Aug 11 2012 21:02:05 GMT+0400 (MSK)_______________________________________________#
-Error call method index from controllers name space. Throw name: TypeError
-#Sat Aug 11 2012 21:03:49 GMT+0400 (MSK)_______________________________________________#
-Error call method index from controllers name space. Throw name: TypeError
-#Sat Aug 11 2012 21:24:55 GMT+0400 (MSK)_______________________________________________#
-Error call method index from controller name space. Throw name: TypeError
-#Sat Aug 11 2012 21:25:25 GMT+0400 (MSK)_______________________________________________#
-Error call method index from controller name space. Throw name: TypeError
-#Sat Aug 11 2012 21:26:52 GMT+0400 (MSK)_______________________________________________#
-Error call method index from controller name space. Throw name: TypeError
-#Sat Aug 11 2012 21:28:47 GMT+0400 (MSK)_______________________________________________#
-Error call method index from maneController name space. Throw name: TypeError
-#Sat Aug 11 2012 21:33:00 GMT+0400 (MSK)_______________________________________________#
-Error call method mane from maneController name space. Throw name: TypeError
-#Sat Aug 11 2012 22:13:20 GMT+0400 (MSK)_______________________________________________#
-Error call method newPost from maneController name space. Throw name: TypeError
-#Sat Aug 11 2012 22:14:51 GMT+0400 (MSK)_______________________________________________#
-Error call method newPost from maneController name space. Throw name: TypeError
-#Sat Aug 11 2012 22:15:00 GMT+0400 (MSK)_______________________________________________#
-Error call method newPost from maneController name space. Throw name: TypeError
-#Sat Aug 11 2012 22:16:13 GMT+0400 (MSK)_______________________________________________#
-Error call method newPost from maneController name space. Throw name: TypeError
-#Sat Aug 11 2012 22:16:37 GMT+0400 (MSK)_______________________________________________#
-Error call method newPost from maneController name space. Throw name: TypeError
-#Sat Aug 11 2012 22:18:12 GMT+0400 (MSK)_______________________________________________#
-Error call method newPost from maneController name space. Throw name: TypeError
-#Sat Aug 11 2012 22:20:59 GMT+0400 (MSK)_______________________________________________#
-Error call method newPost from maneController name space. Throw name: TypeError
-#Sat Aug 11 2012 22:21:06 GMT+0400 (MSK)_______________________________________________#
-Error call method newPost from maneController name space. Throw name: TypeError
-#Sat Aug 11 2012 22:21:26 GMT+0400 (MSK)_______________________________________________#
-Error call method newPost from maneController name space. Throw name: TypeError
-#Sat Aug 11 2012 22:46:17 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sat Aug 11 2012 22:46:20 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sat Aug 11 2012 22:46:20 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sat Aug 11 2012 22:46:21 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sat Aug 11 2012 22:46:21 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sat Aug 11 2012 22:46:22 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sat Aug 11 2012 22:46:22 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sat Aug 11 2012 22:46:47 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sat Aug 11 2012 22:46:48 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sat Aug 11 2012 22:46:48 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sat Aug 11 2012 22:47:01 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sat Aug 11 2012 22:47:04 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-=======
->>>>>>> 48bdbbf09be48ae355619385bf9af1fdc25b500e
-
-#Sun Aug 12 2012 00:06:02 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 00:06:03 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 00:06:03 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 00:06:03 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 00:06:03 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 00:39:53 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 00:39:53 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 00:39:53 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 00:39:53 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 00:39:53 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 00:39:53 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 00:39:53 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 00:39:53 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 00:40:55 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:54:16 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:54:17 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 11:54:19 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:54:19 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 11:54:20 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:54:20 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:54:20 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 11:56:18 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:18 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:19 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:19 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:19 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:20 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:20 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:28 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:29 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:29 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:29 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:29 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:29 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:29 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:29 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:29 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:30 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:30 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:30 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:30 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:31 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:31 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:31 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:31 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:31 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:32 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:32 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:32 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:32 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:32 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:32 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:33 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:33 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:33 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:34 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:34 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:34 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:34 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:34 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:34 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:35 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:35 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:35 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:35 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:36 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:36 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:36 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:36 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:36 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:37 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:37 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:37 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:37 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:37 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:37 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 11:56:38 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:56:38 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 11:57:20 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:57:20 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:57:20 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 11:57:23 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:57:23 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:57:23 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:57:23 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 11:57:33 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:57:33 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:57:33 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:57:33 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 11:57:34 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:57:34 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:57:34 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 11:57:34 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 11:57:59 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 12:11:27 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 12:11:28 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 12:11:28 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 12:11:29 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 12:11:29 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 12:11:29 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 12:11:29 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 12:11:29 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 12:11:29 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 12:11:41 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 12:11:41 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 12:11:41 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 12:11:41 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 12:11:46 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 12:11:46 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 12:11:46 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 12:11:46 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 12:12:10 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 12:46:47 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 12:46:48 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 12:46:48 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 12:46:48 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 12:46:48 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 12:47:56 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 13:31:22 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 13:31:23 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 13:31:23 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 13:31:23 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 13:31:23 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 14:09:31 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:09:31 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:09:31 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:09:31 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 14:09:32 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:09:32 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:09:32 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:09:32 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 14:09:33 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:09:33 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:09:33 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:09:33 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 14:09:33 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:09:33 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:09:33 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:09:33 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 14:09:33 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:09:33 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:09:33 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:09:33 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 14:11:44 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:11:44 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 14:11:45 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:11:45 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:11:45 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 14:12:06 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:12:06 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 14:12:06 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 14:12:07 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 14:12:07 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 14:12:19 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:12:20 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 14:12:20 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:12:21 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:12:21 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 14:12:30 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:12:36 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:12:36 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 14:12:36 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:12:36 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:12:37 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 14:12:37 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:12:37 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:12:37 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:12:37 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 14:13:16 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:13:16 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:13:19 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 14:13:19 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:13:19 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:13:19 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:13:19 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 14:13:30 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:13:32 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:13:38 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:13:40 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:13:41 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:13:41 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:13:42 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 14:13:42 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:13:42 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:13:42 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 14:13:43 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:13:43 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:13:43 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:13:43 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 14:13:45 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:13:45 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:13:45 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:13:45 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 14:19:09 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:19:10 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 14:19:10 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:19:10 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 14:19:11 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 14:19:31 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 14:19:38 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 15:00:12 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 15:00:12 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 15:00:16 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 15:00:16 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 15:00:16 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 15:00:17 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 15:00:17 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 15:00:17 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 15:00:17 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 15:00:28 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 15:00:28 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 15:00:28 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 15:14:54 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 15:14:58 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 15:14:58 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 15:14:58 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 15:28:43 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 15:31:43 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 15:32:10 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 15:32:10 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 15:32:10 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 15:32:11 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 15:55:20 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 15:56:14 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 16:10:37 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 16:11:04 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 16:11:39 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 16:15:34 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 16:20:34 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 16:20:46 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 16:21:02 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 16:22:31 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 16:25:27 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 16:26:54 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 16:28:00 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 16:30:04 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 19:21:15 GMT+0400 (MSK)_______________________________________________#
-Error call method mysql from maneController name space. Throw name: ReferenceError
-#Sun Aug 12 2012 19:21:51 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 19:23:24 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 19:23:34 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 20:07:05 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 20:07:06 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 20:07:07 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 20:07:07 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 20:07:07 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 20:07:07 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 20:07:07 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 20:07:07 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 20:07:07 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 20:28:48 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Sun Aug 12 2012 20:28:48 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 20:28:48 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 20:28:54 GMT+0400 (MSK)_______________________________________________#
-Error call method contact from maneController name space. Throw name: TypeError
-#Sun Aug 12 2012 20:28:58 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 20:28:59 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 20:29:00 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 20:29:00 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 20:39:22 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 20:39:22 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 20:39:25 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 20:39:27 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 20:44:55 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 20:44:55 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 20:44:56 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 20:44:56 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 20:44:57 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 20:45:16 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 20:45:16 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 20:45:17 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 20:49:22 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 20:49:23 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 20:49:23 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 20:49:49 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 20:49:50 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 20:49:51 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 20:49:51 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 20:51:28 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 20:51:29 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 20:51:38 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 20:51:39 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 20:51:45 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 20:51:46 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 20:52:08 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 20:52:09 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 20:52:21 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 20:52:48 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 20:52:50 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 20:52:57 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Sun Aug 12 2012 20:52:58 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-=======
->>>>>>> 1dffbff772219000ad7f96a2aef724190a08fc7b
