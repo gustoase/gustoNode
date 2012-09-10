@@ -1,0 +1,56 @@
+<html>
+    <head>
+       <script type="text/javascript" src="/Public/js/jquery-1.8.1.min.js"></script>
+      <!-- <script type="text/javascript" src="/Public/js/jquery.tmplPlus.min.js"></script>-->
+       <script type="text/javascript" src="/Public/js/jquery.tmpl.min.js"></script>
+       
+       <script type="text/javascript" src="/Public/js/knockout-2.1.0.js"></script>
+    </head>
+    <body>
+        <div data-bind="text: cPerson().fullname"></div><br />
+        <div data-bind="text: cPerson().lname"></div><br />
+        <br />
+        <input type="text" data-bind="value: cPerson().fname, valueUpdate: 'afterkeydown'" />
+        <input type="text" data-bind="value: cPerson().lname, valueUpdate: 'afterkeydown'"/>
+        
+        
+        <script type="text/html" id="template">
+            <li>
+                <span data-bind="text: fullname, click : function(){ VM.edit($data); }" ></span>
+            </li>
+        </script>
+        
+        <ul data-bind="template: { name: 'template', foreach: freind }">
+        </ul>
+        
+        <button data-bind="click: add">адд</button>
+        <div data-bind="text: ko.toJSON(VM)"></div>
+        
+        <script type="text/javascript">
+            var Person = function(fname,lname){
+                this.fname = ko.observable(fname),
+                this.lname = ko.observable(lname),
+                this.fullname = ko.computed(function() {
+                    return this.fname() + " " + this.lname();
+                }, this)
+            }
+            
+            var VM = {
+                cPerson : ko.observable(new Person("Александр", "Дроздов")),
+                freind : ko.observableArray([
+                    new Person("drug 1", "opa"),
+                    new Person("drug 2", "opa"),
+                ]),
+                
+                edit : function(instance){
+                    this.cPerson(instance);
+                },
+                add : function(){
+                    this.freind.push(new Person("drug asd", "opa"));
+                }
+            };
+            
+            ko.applyBindings(VM);
+        </script>
+    </body>
+</html>
