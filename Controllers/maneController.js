@@ -60,11 +60,16 @@ Config.App.ns('maneController').method({
         
         request.get('http://www.google.com',function(error, response, body){
             console.log(body);
+        });  
+    },
+    ko: function(param){
+       
+        Config.View.render('ko', function(error, html) {
+            param.res.writeHead(200);
+            param.res.end(html);
         });
-          
-       
-       
-    }
+        
+    },
     
     
     
