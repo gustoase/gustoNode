@@ -68,9 +68,8 @@ Config.App.ns('maneController').method({
             param.res.writeHead(200);
             param.res.end(html);
         });
-        
-    },
-    
+     ;;   
+    }
     
     
 });

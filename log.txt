@@ -1,31 +1,0 @@
-
-#Mon Sep 10 2012 18:39:15 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Mon Sep 10 2012 18:39:16 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Mon Sep 10 2012 18:39:16 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Mon Sep 10 2012 18:39:16 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Mon Sep 10 2012 18:39:16 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Mon Sep 10 2012 18:58:16 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Mon Sep 10 2012 18:58:17 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Mon Sep 10 2012 18:58:17 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Mon Sep 10 2012 18:58:17 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Mon Sep 10 2012 18:58:17 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Mon Sep 10 2012 18:58:28 GMT+0400 (MSK)_______________________________________________#
-Error loading socket.ioController.js see file from Router.js
-#Mon Sep 10 2012 18:58:28 GMT+0400 (MSK)_______________________________________________#
-Error call method ko from maneController name space. Throw name: TypeError
-#Mon Sep 10 2012 18:59:29 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Mon Sep 10 2012 18:59:56 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
-#Mon Sep 10 2012 18:59:57 GMT+0400 (MSK)_______________________________________________#
-Error loading favicon.icoController.js see file from Router.js
