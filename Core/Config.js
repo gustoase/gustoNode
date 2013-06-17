@@ -7,7 +7,7 @@ exports.dirAppDataS     = this.dirBase+'AppData/';
 exports.dirAppData      = this.dirBase+'AppData';
 exports.dirControllers  = this.dirBase+'Controllers/';
 exports.dirPublic       = this.dirBase+'Public/';
-exports.dirNodeModules  = '/opt/node/lib/node_modules/';
+exports.dirNodeModules  = '/Users/alexandr/Documents/developer/gustoNode/node_modules/';
 /******************************************  Подключение нужный модулей сервера  *********************/
 exports.server          = require('http').createServer();
 exports.io              = require(this.dirNodeModules+'socket.io').listen(this.server);
